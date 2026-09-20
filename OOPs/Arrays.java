@@ -5,13 +5,13 @@ class Arrays
     public static void main(String args[])
         {
             //direct intialization of array
-           String[] cars = {"BMW", "Volvo", "Tesla", "Hyudai"};
+        String[] cars = {"BMW", "Volvo", "Tesla", "Hyudai"};
 
             cars[0] = "Mustang";
 
             System.out.println(cars[0] + "\n");
 
-            //Well a structured declaration of array
+            //Well a structure declaration of array
             String[] cars1 = new String[4]; //4 is len of array
             cars1[0] = "BMW";
             cars1[1] = "Volvo"; 
