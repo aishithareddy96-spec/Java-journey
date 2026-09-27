@@ -53,5 +53,18 @@ public class Main
         System.out.println("Age : "+ age1);
         System.out.println("Food: " + food);
         sc.close();
+
+
+        System.out.println("Arthematic Operators: \n\n");
+        int x = 10;
+        int y = 5;
+        int z;
+        z = x + y; // *, /, -, %, 
+
+        x += y; //instread of z we strore the result in x,
+        x += 1; // increment or x++ or decrement x--
+
+        //Order of operation[P-E-M-D-A-S] -> Paramthasis, exponential, multiplication, division, addioton and then subtraction
+        System.out.println(z);
     }
 }
